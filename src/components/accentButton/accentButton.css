@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+.AccentButton {
+    height: 70px;
+    padding:  25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 26px 35px 23px;
+    background: #C34141;
+    border: none;
+}
+
+.AccentButtonText {
+    font-family: "Covered By Your Grace";
+    font-size: 24px;
+    color: white;
+}
+
+.AccentButton:hover {
+
+    border-radius: 37px 29px 32px 26px; /* -3px for sharper courners, +3px for others*/
+    padding: 17px 25px 23px 25px; /* text moves 3px up*/
+    background: #C34141;
+    border: none;
+    transition: 0.2s ease;
+}
+.AccentButton:hover {
+    border-radius: 40px 26px 35px 23px;
+    background: #C34141;
+    border: none;
+}
