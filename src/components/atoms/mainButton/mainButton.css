@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+.MainButton.large {
+    height: 70px;
+    padding:  25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 26px 35px 23px;
+}
+
+.MainButton.small {
+    height: 40px;
+    padding:  8px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px 20px 36px 25px;
+}
+
+.MainButton.light {
+    background: #EE7A15;
+}
+
+.MainButton.dark {
+    background: #DE8B42;
+}
+
+.MainButton.true {
+    border: none;
+}
+
+.MainButton.false {
+    border: none;
+    background: transparent;
+}
+
+.MainButtonText.large {
+    font-family: "Covered By Your Grace";
+    font-size: 32px;
+    color: white;
+}
+
+.MainButtonText.small {
+    font-family: "Covered By Your Grace";
+    font-size: 24px;
+    color: white;
+}
+
+.MainButton.large:hover {
+
+    border-radius: 37px 29px 32px 26px; /* -3px for sharper courners, +3px for others*/
+    padding: 17px 25px 23px 25px; /* text moves 3px up*/
+    background: #EE7A15;
+    border: none;
+    transition: 0.2s ease;
+}
+.MainButton.small:hover {
+    border-radius: 35px 23px 33px 28px; /* -3px for sharper courners, +3px for others*/
+    padding:  8px 18px 10px 18px; /* text moves 2px up*/
+    background: #EE7A15;
+    border: none;
+    transition: 0.2s ease;
+}
+
+.MainButton.light:hover {
+    background: #EE7A15;
+}
+.MainButton.dark:hover {
+    background: #DE8B42;
+}
+
+.MainButton.true:hover {
+    border: none;
+}
+.MainButton.false:hover {
+    background: transparent;
+    border: none;
+}
+
+.MainButton.large:active {
+    height: 70px;
+    padding:  25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 26px 35px 23px;
+}
+
+.MainButton.small:active {
+    height: 40px;
+    padding:  8px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px 20px 36px 25px;
+}
+
+.MainButton.light:active {
+    background: #EE7A15;
+}
+
+.MainButton.dark:active {
+    background: #DE8B42;
+}
+
+.MainButton.true:active {
+    border: none;
+}
+
+.MainButton.false:active {
+    border: none;
+    background: transparent;
+}
