@@ -1,0 +1,62 @@
+.ButtonRound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.ButtonRound.small {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+}
+
+.ButtonRound.large {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.25));
+}
+
+.ButtonRound.light {
+  background-color: #EE7A15;
+}
+
+.ButtonRound.dark {
+  background-color: #DE8B42;
+}
+
+.ButtonRound.true{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+}
+
+.ButtonRoundAccent.false {
+    visibility: none;
+}
+
+.ButtonRoundAccent.true {
+    border: 2px dashed #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ButtonRound.small :ButtonRoundIcon {
+    width: 28px;
+    height: 28px;
+    justify-self: center;
+    align-self: center;
+}
+.ButtonRound.large :ButtonRoundIcon{
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    align-self: center;
+}
