@@ -18,9 +18,7 @@ accent,
   return (
     <button className={`ButtonRound ${size} ${theme} ${accent}`} onClick={onClick}>
      <div className={`ButtonRoundAccent ${accent}`}>
-            <div className="ButtonRoundIcon" >
-                <img src={image} />
-            </div>
+                <img className="ButtonRoundIcon" src={image} />
         </div>
     </button>
   );

@@ -48,15 +48,17 @@
   align-items: center;
   justify-content: center;
 }
-.ButtonRound.small :ButtonRoundIcon {
-    width: 28px;
-    height: 28px;
+
+.ButtonRoundIcon {
     justify-self: center;
     align-self: center;
 }
-.ButtonRound.large :ButtonRoundIcon{
+
+.ButtonRound.small .ButtonRoundIcon {
+    width: 28px;
+    height: 28px;
+}
+.ButtonRound.large .ButtonRoundIcon{
     width: 40px;
     height: 40px;
-    justify-self: center;
-    align-self: center;
 }
