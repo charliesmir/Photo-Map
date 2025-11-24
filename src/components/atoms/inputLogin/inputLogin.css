@@ -23,8 +23,9 @@
 .InputLoginField {
   border: 2px dashed;
   border-radius: 30px;
-  width: 340px;
+  width: 280px;
   height: 50px;
+  padding: 0 30px;
   font-family: var(--main-family);
   font-size: var(--main-size);
   background-color: transparent;
@@ -34,4 +35,8 @@
 }
 .InputLogin.dark .InputLoginField {
     border-color: var(--main-dark);
+}
+
+.InputLoginField:focus {
+    outline: none;
 }
