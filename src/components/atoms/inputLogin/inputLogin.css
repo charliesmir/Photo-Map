@@ -1,0 +1,37 @@
+@import url("../../styles/designTokens.css");
+
+.InputLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+
+.InputLogin.light {
+  background-color: transparent;
+  color: var(--main-light);
+}
+.InputLogin.dark {
+  background-color: transparent;
+  color: var(--main-dark);
+}
+.InputLoginTitle {
+  font-family: var(--main-family);
+  font-size: var(--main-size);
+}
+.InputLoginField {
+  border: 2px dashed;
+  border-radius: 30px;
+  width: 340px;
+  height: 50px;
+  font-family: var(--main-family);
+  font-size: var(--main-size);
+  background-color: transparent;
+}
+.InputLogin.light .InputLoginField {
+  border-color: var(--main-light);
+}
+.InputLogin.dark .InputLoginField {
+    border-color: var(--main-dark);
+}
