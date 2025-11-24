@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+:root {
+    /* Colors */
+        /*Light Theme*/
+        --accent-light: #EE7A15;
+        --element-accent-light: #FDD7B6;
+        --element-light: #FFFEE3;
+        --element-shadow-light: #EEEDCF;
+        --google-light: #E6875E;
+        --register-light: #FFAC63;
+        --main-light: #000000;
+        --navigation-light: #FFFFFF;
+            /*Collection colors*/
+            --color-1-light: #DFB084;
+            --color-2-light: #ADE5CF;
+            --color-3-light: #E5BBE9;
+            --color-4-light: #AFB8E8;
+            --color-5-light: #BFE5B1;
+            /*Text Colors*/
+            --text-color-1-light: #162570;
+            --text-color-2-light: #37861A;
+            --text-color-3-light: #681370; 
+            --text-color-4-light: #821818;
+            --text-color-5-light: #136E49;
+        /*Dark Theme*/
+        --accent-dark: #DE8B42;
+        --element-accent-dark: #A87141;
+        --element-dark: #5D5240;
+        --element-shadow-dark: #4D412E;
+        --google-dark: #9D3C13;
+        --register-dark: #B35D12;
+        --main-dark: #FFFFFF;
+        --navigation-dark: #373737;
+            /*Collection colors*/
+            --color-1-dark: #B07741;
+            --color-2-dark: #599F83;
+            --color-3-dark: #97559D;
+            --color-4-dark: #4D588F;
+            --color-5-dark: #70A65C;
+            /*Text Colors*/
+            --text-color-1-dark: #7C8DDF;
+            --text-color-2-dark: #9EE983;
+            --text-color-3-dark: #DC89E4; 
+            --text-color-4-dark: #E68B8B;
+            --text-color-5-dark: #5ECCA0;
+        /*Theme Independent*/
+        --highlight: #FFF82C;
+        --main-accent: #FFFFFF;
+        --color-default: #BEBEBE;
+
+    /*Fonts*/
+        /*Font Families*/
+        --main: 'Covered By Your Grace';
+        /*Font Sizes*/
+        --accent-size: 48px;
+        --title-size: 32px;
+        --main-size: 24px;
+
+        /*Font Weights*/
+        --main-weight: 400;
+
+    /*Shadows*/
+    --main-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.25);
+}
