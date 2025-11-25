@@ -1,0 +1,32 @@
+@import url("../../styles/designTokens.css");
+
+.BannerAccent {
+    width: 265px;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BannerAccent.light {
+    background-color: var(--element-accent-light);
+}
+
+.BannerAccent.dark {
+    background-color: var(--element-accent-dark);
+}
+
+.BannerAccentText {
+    font-family: var(--main-family);
+    font-size: var(--title-size);
+    font-weight: var(--main-weight);
+    width: 195px; /* divides text into two lines*/
+}
+
+.BannerAccent.light .BannerAccentText {
+    color: var(--main-light);
+}
+
+.BannerAccent.dark .BannerAccentText {
+    color: var(--main-dark);
+}
