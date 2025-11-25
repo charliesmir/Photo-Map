@@ -1,0 +1,32 @@
+@import url("../../styles/designTokens.css");
+
+.BannerNotFound {
+    width: 650px;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BannerNotFound.light {
+    background-color: var(--element-light);
+}
+
+.BannerNotFound.dark {
+    background-color: var(--element-dark);
+}
+
+.BannerNotFoundText {
+    font-family: var(--main-family);
+    font-size: var(--accent-size);
+    font-weight: var(--main-weight);
+    width: 490px; /* divides text into two lines*/
+}
+
+.BannerNotFound.light .BannerNotFoundText {
+    color: var(--main-light);
+}
+
+.BannerNotFound.dark .BannerNotFoundText {
+    color: var(--main-dark);
+}
