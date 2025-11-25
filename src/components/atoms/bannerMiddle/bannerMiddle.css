@@ -32,11 +32,11 @@
     font-weight: var(--main-weight);
 }
 
-.BannerMiddle.light .BannerNotFoundText {
+.BannerMiddle.light .BannerMiddleText {
     color: var(--main-light);
 }
 
-.BannerMiddle.dark .BannerNotFoundText {
+.BannerMiddle.dark .BannerMiddleText {
     color: var(--main-dark);
 }
 
