@@ -2,7 +2,7 @@ import "./bannerAccent.css";
 
 export interface BannerAccentProps {
     theme?: "light" | "dark";
-    title: string;
+    title?: string;
 }
 
 export const BannerAccent = ({theme, title}: BannerAccentProps) => {

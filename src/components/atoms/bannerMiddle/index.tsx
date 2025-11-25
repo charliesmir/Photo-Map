@@ -2,10 +2,10 @@ import "./bannerMiddle.css";
 
 export interface BannerMiddleProps {
     theme?: "light" | "dark";
-    title: string;
+    title?: string;
     maintext: string;
-    note: string;
-    highlight: string;
+    note?: string;
+    highlight?: string;
 }
 
 export const BannerMiddle = ({theme, title, maintext, note, highlight}: BannerMiddleProps) => {
