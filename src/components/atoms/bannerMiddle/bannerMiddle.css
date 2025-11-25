@@ -1,0 +1,49 @@
+@import url("../../styles/designTokens.css");
+
+.BannerMiddle {
+    width: 690px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BannerMiddle.light {
+    background-color: var(--element-light);
+}
+
+.BannerMiddle.dark {
+    background-color: var(--element-dark);
+}
+
+.BannerMiddleText {
+    font-family: var(--main-family);
+    font-size: var(--main-size);
+    font-weight: var(--main-weight);
+    width: 540px; /* divides text into two lines*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.BannerMiddleTitle {
+    font-size: var(--accent-size);
+    font-weight: var(--main-weight);
+}
+
+.BannerMiddle.light .BannerNotFoundText {
+    color: var(--main-light);
+}
+
+.BannerMiddle.dark .BannerNotFoundText {
+    color: var(--main-dark);
+}
+
+.BannerMiddle.light .BannerMiddleHighlight {
+    color: var(--accent-light);
+}
+
+.BannerMiddle.dark .BannerMiddleHighlight {
+    color: var(--accent-dark);
+}
