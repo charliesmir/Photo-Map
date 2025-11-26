@@ -1,0 +1,31 @@
+.Plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 83px;
+    height: 83px;
+    border-radius: 83px;
+}
+
+.Plus.light {
+    background-color: var(--accent-light);
+}
+
+.Plus.dark {
+    background-color: var(--accent-dark);
+}
+
+.PlusFrame {
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed var(--main-accent);
+}
+
+.PlusFrame img {
+    width:70px;
+    height: 70px;
+}
