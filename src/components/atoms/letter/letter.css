@@ -1,0 +1,32 @@
+.Letter {
+    width: 450px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Letter.light {
+    background-image: url("/letterBackgroundLight.png");
+    color: var(--main-light);
+}
+
+.Letter.dark {
+    background-image: url("/letterBackgroundDark.png");
+    color: var(--main-dark);
+}
+
+.LetterText {
+    width: 365px; /*divides text into lines*/
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--main-family);
+    font-size: var(--main-size);
+    font-weight: var(--main-weight);
+}
