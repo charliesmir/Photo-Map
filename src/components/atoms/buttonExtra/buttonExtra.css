@@ -1,0 +1,39 @@
+.ButtonExtra {
+    border: none;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--main-family);
+    font-size: var(--main-size);
+    font-weight: var(--main-weight);
+}
+
+.ButtonExtra.light {
+    border: 2px dashed var(--main-light);
+}
+
+.ButtonExtra.dark {
+    border: 2px dashed var(--main-dark);
+}
+
+.ButtonExtra.light.google {
+    background-color: var(--google-light);
+    color: var(--main-light);
+}
+.ButtonExtra.dark.google {
+    background-color: var(--google-dark);
+    color: var(--main-dark);
+}
+.ButtonExtra.light.register {
+    background-color: var(--register-light);
+    color: var(--main-light);
+}
+.ButtonExtra.dark.register {
+    background-color: var(--register-dark);
+    color: var(--main-dark);
+}
+
