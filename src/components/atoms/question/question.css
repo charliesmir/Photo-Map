@@ -1,0 +1,31 @@
+.Question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 155px;
+    border-radius: 155px;
+}
+
+.Question.light {
+    background-color: var(--accent-light);
+}
+
+.Question.dark {
+    background-color: var(--accent-dark);
+}
+
+.QuestionFrame {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed var(--main-accent);
+}
+
+.QuestionFrame img {
+    width: 42px;
+    height: 80px;
+}
